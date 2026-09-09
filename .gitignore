@@ -1,0 +1,29 @@
+# Model weights / config (large binaries — see README for download instructions)
+models/*
+!models/.gitkeep
+
+# Runtime outputs
+detection_results/
+*.log
+
+# Ad-hoc local test videos downloaded/generated at the repo root during
+# development (not part of the committed data/eval/ fixture)
+/*.avi
+/*.mp4
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
