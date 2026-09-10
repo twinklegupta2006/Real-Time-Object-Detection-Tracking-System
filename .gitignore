@@ -6,8 +6,7 @@ models/*
 detection_results/
 *.log
 
-# Ad-hoc local test videos downloaded/generated at the repo root during
-# development (not part of the committed data/eval/ fixture)
+# Ad-hoc local test videos at the repo root
 /*.avi
 /*.mp4
 
